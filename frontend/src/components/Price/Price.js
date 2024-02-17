@@ -12,5 +12,5 @@ export default function Price({ price, locale, currency }) {
 
 Price.defaultProps = {
   locale: 'en-IN', // Changed to Indian English locale
-  currency: 'INR',
+  currency: 'INR',//coverted to indian rupee
 };
