@@ -21,6 +21,7 @@ export default function PaypalButtons({ order }) {
       <Buttons order={order} />
     </PayPalScriptProvider>
   );
+  //paypal
 }
 
 function Buttons({ order }) {
