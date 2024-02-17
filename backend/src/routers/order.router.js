@@ -79,6 +79,7 @@ router.get(
   })
 );
 
+
 router.get('/allstatus', (req, res) => {
   const allStatus = Object.values(OrderStatus);
   res.send(allStatus);

@@ -1,6 +1,6 @@
 import {
   PayPalButtons,
-  PayPalScriptProvider,
+  PayPalScriptProvider,  
   usePayPalScriptReducer,
 } from '@paypal/react-paypal-js';
 import React, { useEffect } from 'react';
@@ -15,7 +15,7 @@ export default function PaypalButtons({ order }) {
     <PayPalScriptProvider
       options={{
         clientId:
-          'AUWcnaHjOUoXVI3IjLpMkM0Kk0Sigq1CUAWP-finHI950yQD2Qni8XPkRbs76Q-_JIT8hJFhKD8YVy3u',
+          'Aa72G6W0IQw5qwxlqGcWSVIzUAAQNHGMtGNo2NLVFovDGkeZ-ss_Vq0UUqBUCrAKaGoMlhFXnFWO9ny_',
       }}
     >
       <Buttons order={order} />
