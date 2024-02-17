@@ -4,7 +4,7 @@ import Loading from './components/Loading/Loading';
 import { useLoading } from './hooks/useLoading';
 import { setLoadingInterceptor } from './interceptors/loadingInterceptor';
 import { useEffect } from 'react';
-
+import Onboarding from './components/overboarding';
 function App() {
   const { showLoading, hideLoading } = useLoading();
 
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+      <Onboarding />
       <Loading />
       <Header />
       <AppRoutes />
