@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Onboarding />
+      {/* <Onboarding /> */}
       <Loading />
       <Header />
       <AppRoutes />

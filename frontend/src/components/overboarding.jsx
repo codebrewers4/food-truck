@@ -1,7 +1,7 @@
 import React from 'react'
 import  './overboarding.module.css';
 import { render } from '@testing-library/react';
-
+// import './script.js'
 class Onboarding extends React.Component{
   render(){
     return (
