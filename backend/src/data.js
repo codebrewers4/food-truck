@@ -9,7 +9,7 @@ export const sample_foods = [
     stars: 4.5,
     imageUrl: 'food-1.jpg',
     tags: ['FastFood', 'Pizza', 'Lunch'],
-  },
+  },//for commmit
   {
     id: '2',
     name: 'Meatball',
