@@ -1,3 +1,7 @@
+.wrapper {
+  /* scale: 5; */
+}
+
 .list {
   display: flex;
   justify-content: center;

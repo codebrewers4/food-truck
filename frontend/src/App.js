@@ -1,7 +1,7 @@
 import AppRoutes from './AppRoutes';
-import Header from './components/Header/Header';
+// import Header from './components/Header/Header';
 import Loading from './components/Loading/Loading';
-
+// import Landing from './Landing/Landing.jsx'
 import { useLoading } from './hooks/useLoading';
 import { setLoadingInterceptor } from './interceptors/loadingInterceptor';
 import { useEffect } from 'react';
@@ -11,13 +11,14 @@ function App() {
 
   useEffect(() => {
     setLoadingInterceptor({ showLoading, hideLoading });
-  }, []);
+  }, [showLoading, hideLoading]);
 
   return (
     <>
       {/* <Onboarding /> */}
+      
       <Loading />
-      <Header />
+      {/* <Header /> */}
       <AppRoutes />
     </>
   );

@@ -7,7 +7,7 @@ export default function Thumbnails({ foods }) {
   return (
     <ul className={classes.list}>
       {foods.map(food => (
-        <li key={food.id}>
+        <li key={food.id} className='classes.wrapper'>
           <Link to={`/food/${food.id}`}>
             <img
               className={classes.image}

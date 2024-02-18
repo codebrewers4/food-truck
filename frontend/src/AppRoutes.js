@@ -17,10 +17,13 @@ import FoodsAdminPage from './pages/FoodsAdmin/FoodsAdminPage';
 import FoodEditPage from './pages/FoodEdit/FoodEditPage';
 import UsersPage from './pages/UsersPage/UsersPage';
 import UserEditPage from './pages/UserEdit/UserEditPage';
+import Header from './components/Header/Header';
+import Landing from './Landing/Landing';
 
 export default function AppRoutes() {
   return (
     <Routes>
+      <Route path='landing' element={<Landing />} />
       <Route path="/" element={<HomePage />} />
       <Route path="/search/:searchTerm" element={<HomePage />} />
       <Route path="/tag/:tag" element={<HomePage />} />
