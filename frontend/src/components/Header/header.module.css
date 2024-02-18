@@ -6,12 +6,15 @@
 
 .header a {
   color: #af1313;
+  transition: all 0.3s ease; /* Smooth transition for color and background */
 }
 
 .header a:hover {
   background: #e72929;
   color: white;
   cursor: pointer;
+  transform: scale(1.05); /* Scale effect for interactive feedback */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .container {
@@ -23,6 +26,11 @@
 .logo {
   font-weight: bold;
   padding: 1rem;
+  transition: transform 0.3s ease; /* Ensure logo has a smooth scaling effect */
+}
+
+.logo:hover {
+  transform: scale(1.05); /* Slight enlargement on hover for visual feedback */
 }
 
 .header ul {
@@ -34,6 +42,7 @@
 .header ul a {
   padding: 1rem;
   display: inline-block;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
 
 .menu_container {
@@ -54,6 +63,13 @@
 .menu a {
   width: 100%;
   min-width: 8rem;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.menu a:hover {
+  background-color: #e72929; /* Red background on hover for menu items */
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .cart_count {
