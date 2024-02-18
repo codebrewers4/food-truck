@@ -54,7 +54,7 @@
     transition: all linear 0.4s;
   }
   #nav {
-    height: 15vh;
+    height: 18vh;
     width: 100%;
     background-color: red;
     display: flex;
@@ -90,7 +90,7 @@
   
   #main {
     position: relative;
-    background-color: #fff4df;
+    background-color: #fff;
   }
   
   #page1 {
@@ -133,11 +133,12 @@
     z-index: 2000;
     position: absolute;
     top: 80%;
-    padding: 15px 20px;
+    padding: 30px 35px;
     border: none;
-    border-radius: 25px;
+    border-radius: 40px;
     background-color: #fc6500;
     color: #fff;
+    font-size: 1.3vw;
     font-weight: 500;
     transition: background-color,color,border,opacity 0.15s;
   }

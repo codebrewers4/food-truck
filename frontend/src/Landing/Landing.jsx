@@ -64,18 +64,18 @@ const Landing = () => {
         <div id="page2">
           <div id="scroller">
             <div id="scroller-in">
-              <h4>20</h4>
-              <h4>%</h4>
-              <h4>OFF</h4>
-              <h4>ON</h4>
-              <h4>WEEKENDS</h4>
+              <h4>FOOD ON</h4>
+              <h4>WHEELS,</h4>
+              <h4> HAVE</h4>
+              <h4>YOUR</h4>
+              <h4>MEALS!</h4>
             </div>
             <div id="scroller-in">
-              <h4>20</h4>
-              <h4>%</h4>
-              <h4>OFF</h4>
-              <h4>ON</h4>
-              <h4>WEEKENDS</h4>
+              <h4>FOOD ON</h4>
+              <h4>WHEELS,</h4>
+              <h4> HAVE</h4>
+              <h4>YOUR</h4>
+              <h4>MEALS!</h4>
             </div>
           </div>
         </div>
